@@ -356,11 +356,15 @@ a:hover {
 .wrapper .text {
 	position:relative;
 	bottom:50px;
-	left:10px;
+	left:20px;
 	visibility:hidden;
 }
 
 .wrapper:hover .text {
 	visibility:visible;
-	color: #ffffff
+	color: #fff;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-family: 'Poiret One', cursive;
+	line-height: 160%;
 }
