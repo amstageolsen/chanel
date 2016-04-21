@@ -352,15 +352,16 @@ a:hover {
 	margin-bottom: -52px;
 }
 
+/* table */
 .table-spot {
 	position: absolute;
 	margin-top: 500px;
+	float: left;
 }
 .table-spot table {
 	margin-left: 20px;
 	border-collapse: collapse;
 	color: #fff;
-	float: left;
 	font-family: 'Poiret One', cursive;
 }
 .table-spot table, th, td {
