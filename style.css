@@ -362,4 +362,5 @@ a:hover {
 
 .wrapper:hover .text {
 	visibility:visible;
+	color: #ffffff
 }
