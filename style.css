@@ -373,3 +373,26 @@ a:hover {
 	line-height: 160%;
 	margin-bottom: -52px;
 }
+
+
+.table-spot table {
+	margin-left: 20px;
+	border-collapse: collapse;
+	color: #fff;
+	float: left;
+	font-family: 'Poiret One', cursive;
+}
+
+.table-spot table, th, td {
+	border: 1px solid #fff;
+}
+
+th {
+	font-family: 'Poiret One', cursive;
+	font-weight: 900;
+	padding: 10px 0;
+}
+
+td {
+	padding: 10px 5px;
+}
