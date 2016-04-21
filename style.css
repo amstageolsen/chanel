@@ -336,10 +336,13 @@ a:hover {
 	margin: 80px 0;
 }
 
-.stacked-image-right img {
+.wrapper {
+	height: auto;
 	float: right;
 	max-width: 50%;
-	opacity: 1;
+}
+
+.stacked-image-right img {
 	transition: opacity .25s ease-in-out;
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
@@ -348,7 +351,7 @@ a:hover {
 .stacked-image-right:hover {
 	opacity: 0.8;
 }
-
+/*
 .wrapper .text {
 	position:relative;
 	bottom:30px;
@@ -359,3 +362,4 @@ a:hover {
 .wrapper:hover .text {
 	visibility:visible;
 }
+*/
