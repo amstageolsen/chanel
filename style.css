@@ -340,6 +340,7 @@ a:hover {
 	height: auto;
 	float: right;
 	max-width: 50%;
+	margin: -2px;
 }
 
 .stacked-image-right img {
@@ -351,7 +352,7 @@ a:hover {
 .stacked-image-right:hover {
 	opacity: 0.8;
 }
-/*
+
 .wrapper .text {
 	position:relative;
 	bottom:30px;
@@ -362,4 +363,3 @@ a:hover {
 .wrapper:hover .text {
 	visibility:visible;
 }
-*/
