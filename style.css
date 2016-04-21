@@ -278,7 +278,7 @@ a:hover {
 .text-spot{
 	width: 50%;
 	max-width: 600px;
-	height: auto;
+	min-height: 800px;
 	float: left;
 	background-color: #000;
 	text-transform: uppercase;
@@ -358,6 +358,15 @@ a:hover {
 	margin-top: 500px;
 	float: left;
 }
+
+table th:first-child {
+	background: #6867F7;
+}
+
+table th:last-child {
+	background: #6867F7;
+}
+
 .table-spot table {
 	margin-left: 20px;
 	border-collapse: collapse;
