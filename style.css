@@ -84,14 +84,12 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.85);
 }
-
 .menu-expanded nav {
   transition: all .05s;
   position: relative;
   left: 0;
   z-index: 2;
 }
-
 .menu-expanded ul a {
   transition: all .15s;
   text-decoration: none;
@@ -100,25 +98,21 @@
   font-family: 'Istok Web', sans-serif;
   padding: 5px;
 }
-
 .menu-expanded ul a:hover {
   transition: all .15s;
   letter-spacing: 2px;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
-
 .menu-expanded .bar {
   background-color: transparent;
   transition: all .25s;
 }
-
 .menu-expanded .bar:before {
   transition: all .25s;
   content: "";
   transform: rotate(45deg);
   top: -0px;
 }
-
 .menu-expanded .bar:after {
   transition: all .25s;
   content: "";
@@ -141,12 +135,10 @@ body {
 header img {
 	width: 150px;
 }
-
 img {
 	width: 100%;
 	height: auto;
 }
-
 header {
 	background: #000;
 	padding: 20px;
@@ -158,7 +150,6 @@ footer {
 	overflow: hidden;
 	clear: both;
 }
-
 footer a {
 	color: #fff;
 	text-decoration: none;
@@ -167,12 +158,10 @@ footer a {
 	font-size: 12px;
 	padding: 10px;
 }
-
 footer li {
 	float: left;
 	padding: 10px;
 }
-
 a:hover {
 	color: #6867F7;
 }
@@ -261,7 +250,6 @@ a:hover {
 	cursor: pointer;
 	display: block;
 }
-
 .spot-header {
 	width: 100%;
 	height: 60px;
@@ -276,7 +264,6 @@ a:hover {
 	text-decoration: none;
 	color: #000;
 }
-
 .spot-panel {
 	margin: 60px auto;
 	max-width: 1380px;
@@ -292,33 +279,29 @@ a:hover {
 .text-spot{
 	width: 50%;
 	max-width: 600px;
-	height: 600px;
+	height: auto;
 	float: left;
 	background-color: #000;
 	text-transform: uppercase;
 	font-family: 'Poiret One', cursive;
 	padding: 50px 50px 20px 0;
 }
-
 .text-spot p {
 	color: #fff;
 	margin-left: 20px;
 	margin-top: 20px;
 	line-height: 160%;
 }
-
 .text-spot h2 {
 	color: #fff;
 	font-size: 30px;
 	margin-left: 20px;
 }
-
 .text-spot h6 {
 	margin-left: 20px;
 	margin-top: 10px;
 	color: #fff;
 }
-
 .spot-animation {
 	width: 50%;
 	float: left;
@@ -342,7 +325,6 @@ a:hover {
 	max-width: 50%;
 	margin-bottom: -40px;
 }
-
 .stacked-image-right img {
 	height: auto;
 	float: right;
@@ -351,11 +333,9 @@ a:hover {
 	-moz-transition: opacity .25s ease-in-out;
 	-webkit-transition: opacity .25s ease-in-out;
 }
-
 .stacked-image-right:hover {
 	opacity: 0.8;
 }
-
 .wrapper .text {
 	position:relative;
 	bottom:100px;
@@ -363,7 +343,6 @@ a:hover {
 	visibility:hidden;
 	text-shadow: 1px 1px 1px #4f4e4d;
 }
-
 .wrapper:hover .text {
 	visibility:visible;
 	color: #fff;
@@ -374,7 +353,10 @@ a:hover {
 	margin-bottom: -52px;
 }
 
-
+.table-spot {
+	position: absolute;
+	margin-top: 500px;
+}
 .table-spot table {
 	margin-left: 20px;
 	border-collapse: collapse;
@@ -382,17 +364,14 @@ a:hover {
 	float: left;
 	font-family: 'Poiret One', cursive;
 }
-
 .table-spot table, th, td {
 	border: 1px solid #fff;
 }
-
 th {
 	font-family: 'Poiret One', cursive;
 	font-weight: 900;
 	padding: 10px 0;
 }
-
 td {
 	padding: 10px 5px;
 }
